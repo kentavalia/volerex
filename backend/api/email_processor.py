@@ -1,0 +1,3 @@
+from auth_dummy import get_authorized_user, User
+
+# rest of your code...
