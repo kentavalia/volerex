@@ -40,7 +40,6 @@ AuthConfigDep = Annotated[AuthConfig, Depends(get_auth_config)]
 
 
 def get_audit_log(request: HTTPConnection) -> Callable[[str], None] | None:
-    return getattr(request.app.state.databutton_app_state, "audit_log", None)
 
 
 AuditLogDep = Annotated[Callable[[str], None] | None, Depends(get_audit_log)]

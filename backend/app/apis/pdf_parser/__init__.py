@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException, UploadFile, Form, Depends
 from pydantic import BaseModel
 from typing import Optional # Added Optional
-import databutton as db
 import openai
 import pdfplumber
 import re

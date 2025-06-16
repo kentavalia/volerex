@@ -1,7 +1,6 @@
 import pdfplumber
 from io import BytesIO
 from typing import Dict, Any
-import databutton as db
 from openai import OpenAI
 import json
 import uuid

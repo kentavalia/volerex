@@ -3,7 +3,6 @@ API for managing PDF extraction templates.
 Allows CRUD operations for templates, where each template defines a set of fields
 to be extracted from a PDF, along with hints for the AI.
 """
-import databutton as db
 from fastapi import APIRouter, HTTPException, Body
 from pydantic import BaseModel, Field
 import uuid

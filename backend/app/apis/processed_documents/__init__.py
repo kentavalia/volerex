@@ -2,7 +2,6 @@ from fastapi import APIRouter, HTTPException, UploadFile, File
 from app.auth import AuthorizedUser
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
-import databutton as db
 from datetime import datetime
 import uuid
 

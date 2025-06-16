@@ -13,7 +13,6 @@ from typing import Annotated
 
 from fastapi import Depends
 
-from databutton_app.mw.auth_mw import get_authorized_user, User
 
 
 AuthorizedUser = Annotated[User, Depends(get_authorized_user)]
