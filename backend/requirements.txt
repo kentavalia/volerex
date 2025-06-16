@@ -8,3 +8,4 @@ beautifulsoup4
 requests
 pdfplumber
 openpyxl
+PyJWT==2.8.0
